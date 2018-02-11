@@ -1,0 +1,27 @@
+{
+  "name": "neoblog-plugin-custom-page",
+  "version": "0.1.0",
+  "description": "NeoBlog plugin for adding custom page under specific route",
+  "main": "index.js",
+  "scripts": {
+    "start": "neoblog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocket1184/neoblog-plugin-custom-page.git"
+  },
+  "keywords": [
+    "neoblog",
+    "neoblog-plugin"
+  ],
+  "author": "rocka <i@rocka.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocket1184/neoblog-plugin-custom-page/issues"
+  },
+  "homepage": "https://github.com/rocket1184/neoblog-plugin-custom-page#readme",
+  "peerDependencies": {
+    "neoblog": ">=0.1.0",
+    "koa-router": "^7.4.0"
+  }
+}
