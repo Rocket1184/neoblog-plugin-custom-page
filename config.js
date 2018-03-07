@@ -2,16 +2,16 @@ const PluginCustomPage = require('.');
 
 module.exports = {
     title: 'PluginCustomPage',
-    articleDir: 'node_modules/neoblog/example/article',
+    articleDir: 'node_modules/@neoblog/neoblog/example/article',
     plugins: [
         new PluginCustomPage({
             route: '/intro',
-            file: 'node_modules/neoblog/example/article/mastering-markdown.md'
+            file: 'node_modules/@neoblog/neoblog/example/article/mastering-markdown.md'
         }),
         new PluginCustomPage({
             route: '/raw-intro',
             type: PluginCustomPage.RAW,
-            file: 'node_modules/neoblog/example/article/mastering-markdown.md'
+            file: 'node_modules/@neoblog/neoblog/example/article/mastering-markdown.md'
         })
     ],
     // arguments passed to template. can be anything but null.
