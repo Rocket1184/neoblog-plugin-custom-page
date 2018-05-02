@@ -1,6 +1,6 @@
 {
   "name": "@neoblog/plugin-custom-page",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NeoBlog plugin for adding custom page under specific route",
   "main": "index.js",
   "scripts": {
