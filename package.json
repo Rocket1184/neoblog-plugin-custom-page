@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocket1184/neoblog-plugin-custom-page.git"
+    "url": "git+https://github.com/rocka/neoblog-plugin-custom-page.git"
   },
   "keywords": [
     "neoblog",
@@ -17,11 +17,11 @@
   "author": "rocka <i@rocka.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rocket1184/neoblog-plugin-custom-page/issues"
+    "url": "https://github.com/rocka/neoblog-plugin-custom-page/issues"
   },
-  "homepage": "https://github.com/rocket1184/neoblog-plugin-custom-page#readme",
+  "homepage": "https://github.com/rocka/neoblog-plugin-custom-page#readme",
   "peerDependencies": {
-    "@neoblog/neoblog": "^0.1.0",
-    "koa-router": "^7.4.0"
+    "@neoblog/neoblog": ">=0.1.0",
+    "koa-router": ">=7.4.0"
   }
 }
